@@ -1,0 +1,129 @@
+/*responsive*/
+
+@media (max-width: $screen-xs-max) { 
+    .item_two{
+        width: 100%;
+    }
+    .item .item_img {
+        height: 166px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .logo{
+        float: inherit;
+        position: static;
+        text-align: center;
+    }
+    nav.mainnav1 {
+        display: none;
+    }
+    nav.mainnav2 .navbar-nav{
+        display: none;
+    }
+    .navbar-toggle {
+        margin: 8px 0;
+        padding: 9px 3px;
+    }
+    .navbar-nav > li > a {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .navbar-nav {
+        width: 100%;
+        padding: 0;
+    }
+    .affix1 {
+        display: none;
+    }
+    .affix2{
+        display: block;
+    }
+    .affix2 .social-link{
+        display: inline-block;
+    }
+    .affix1 .social-link {
+        float: left;
+    }
+    .item_2 {
+        width: 100%;
+    }
+    .item_1 {
+        width: 100%;
+    }
+    #sidebar_btn{
+        display: block;
+    }
+    .main-slide{
+        padding-top: 0;
+
+        margin: 0 auto;
+        height: 100%;
+        position: relative;
+    }
+    .tetegleg_menu{
+        margin: 0;
+    }
+    .slogan{
+        font-size: 14px;
+    }
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    body{
+        font-size: 13px;
+        line-height: 1.6;
+    }
+    nav.mainnav1 .phone{
+        float: none;
+        text-align: center;
+    }
+    nav.mainnav1 ul li a{
+        padding: 6px 9px 6px 9px;
+    }
+    .logo{
+        float: inherit;
+        position: static;
+        text-align: center;
+    }
+    .navbar-nav  {
+        padding: 0;
+        margin: 0;
+    }
+    .item .item_img {
+        width: 100%;
+        height: 166px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .navbar-nav>li>a {
+        width: 90px;
+        padding: 5px;
+    }
+    .logo{
+        position: static;
+        text-align: center;
+    }
+    .navbar-nav li a{
+        margin: 0;
+    }
+    .main-slide{
+        padding-top: 0;
+        margin: 0 auto;
+        height: 100%;
+        position: relative;
+    }
+    .tetegleg_menu{
+        margin: 0;
+    }
+ }
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    .item .item_img{
+        width: 100%;
+    }
+    .navbar-nav  {
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+@media (min-width: $screen-lg-min) { 
+ }
